@@ -1,0 +1,8 @@
+# Stuff for editor configurations
+.vscode
+
+# Where all of our pip packages are
+env
+
+# Mac stuff
+.DS_Store

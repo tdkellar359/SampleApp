@@ -1,0 +1,24 @@
+html, body {
+  /* padding keeps internal (children) elements away from the edges of this element */
+  /* padding: 20px; */
+
+  /* 
+    margin keeps external elements away from the border of this element. We want
+    the body to be flush with the edges of the screen
+  */
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  overflow: auto;
+}
+
+li.nav-item > a.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+  transform: translateY(-3px);
+}
